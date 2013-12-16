@@ -4,8 +4,7 @@ class MenuTesto {
       int x = 10;
       int y = 15;
       System.out.print("Quale operazione?\n + per somma\n - per sottrazione\n * per moltiplicazione\n / per divisione\n");
-      char operazione = Leggi.unChar();
-      System.out.println(operazione(x,y,operazione));
+      System.out.println(operazione(x,y,Leggi.unChar()));
     }
     static int operazione(int x, int y, char operando) {
       switch (operando) {

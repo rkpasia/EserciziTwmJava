@@ -4,7 +4,7 @@ class Palindromi {
 		int n = Leggi.unInt();
 		int m = Leggi.unInt();
 		int lunghezzaPalindromo = ((massimo(n,m)-minimo(n,m))*2)+1;
-		stampaPalindromo(minimo(n,m),lunghezzaPalindromo);
+		stampaPalindromo(massimo(n,m),lunghezzaPalindromo);
 		System.out.println();
 	}
 	static int minimo(int n, int m){
@@ -16,8 +16,8 @@ class Palindromi {
 	}
 
 	static void stampaPalindromo(int n, int lunghezzaPalindromo){
-		for(int i = 1; i<=lunghezzaPalindromo; i++){
-			if(i<(lunghezzaPalindromo/2)+1){
+		for(int i = lunghezzaPalindromo; i>=1; i--){
+			if(i<=(lunghezzaPalindromo/2)+1){
 				System.out.print(n);
 				n++;
 			}else{

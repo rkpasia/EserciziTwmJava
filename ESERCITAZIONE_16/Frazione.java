@@ -51,7 +51,6 @@ public class Frazione {
                 return mcd(a,b-a);
             }
         }else{
-        //    System.out.println("Il problema e' qui");
             return 1;
         }
     }
@@ -66,20 +65,18 @@ public class Frazione {
 
     public static void moltiplica(Frazione f1, Frazione f2){
         setValue(f1, f1.numeratore*f2.numeratore,f1.denominatore*f2.denominatore);
-        //semplifica(f1);
     }
     public static void somma(Frazione f1, Frazione f2){
         int mcm = mcm(f1.denominatore,f2.denominatore);
         setValue(f1,((mcm/f1.denominatore)*f1.numeratore)+((mcm/f2.denominatore)*f2.numeratore),mcm);
-        semplifica(f1);
     }  
     public static void sottrazione(Frazione f1, Frazione f2){
-        int mcm = f1.denominatore*f2.denominatore;
+        int mcm = mcm(f1.denominatore,f2.denominatore);
         setValue(f1,((mcm/f1.denominatore)*f1.numeratore)-((mcm/f2.denominatore)*f2.numeratore),mcm);
-        semplifica(f1);
     }
     public static void divisione(Frazione f1, Frazione f2){
         setValue(f2,f2.denominatore,f2.numeratore);
         moltiplica(f1,f2);
+        setValue(f2,f2.denominatore,f2.numeratore);
     }
 }

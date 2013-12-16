@@ -4,9 +4,6 @@ class Esercizio12 {
 		int numeroPrimi = Leggi.unInt();
 		int[] arrayPrimi = new int[numeroPrimi];
 		riempiArray(arrayPrimi);
-		//for(int i = 0; i < arrayPrimi.length; i++){
-		//	System.out.println(arrayPrimi[i]);
-		//}
 	}
 	static boolean pari(int numero){
 		return numero%2==0;

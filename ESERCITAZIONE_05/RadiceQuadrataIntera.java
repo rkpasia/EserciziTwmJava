@@ -1,8 +1,6 @@
 class RadiceQuadrataIntera {
 	public static void main(String[] args){
-		int numeroInput;
-		numeroInput = Leggi.unInt();
-		System.out.println(radiceIntera(numeroInput));
+		System.out.println(radiceIntera(Leggi.unInt()));
 	}
 	static int radiceIntera(int numero){
 		int radice = 0;

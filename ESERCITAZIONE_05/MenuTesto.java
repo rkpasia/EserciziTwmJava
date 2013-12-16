@@ -6,7 +6,6 @@ class MenuTesto {
       int y = 15;
       System.out.print("Quale operazione?\n1. somma\n2. sottrazione\n-1. per uscire\n");
       while (scelta != -1){
-      
         scelta = Leggi.unInt();
         if (scelta == 1)
           System.out.println("La somma di "+x+" e "+y+" e': "+(x+y));

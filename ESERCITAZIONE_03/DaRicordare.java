@@ -1,4 +1,4 @@
-class DaProvare {
+class DaRicordare {
   	public static void main(String[] args) {
 
 	    System.out.println("Il file .java contiene il codice sorgente "

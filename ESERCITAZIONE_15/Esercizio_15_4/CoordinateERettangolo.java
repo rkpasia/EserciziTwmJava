@@ -89,7 +89,6 @@ class Rettangolo {
 		}
 	}
 
-
 	public static Rettangolo intersezione(Rettangolo r1, Rettangolo r2){
 		return new Rettangolo(
 			new Coordinate((Coordinate.GetX(r1.inf)<Coordinate.GetX(r2.inf))?Coordinate.GetX(r1.inf):Coordinate.GetX(r2.inf),(Coordinate.GetY(r1.inf)<Coordinate.GetY(r2.inf))?Coordinate.GetY(r1.inf):Coordinate.GetY(r2.inf)),

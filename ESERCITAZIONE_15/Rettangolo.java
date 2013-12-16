@@ -21,7 +21,7 @@ class Rettangolo {
 		this(lato,lato,car);
 	}
 
-	public static String GetString(Rettangolo rett){
+	public static String getString(Rettangolo rett){
 		String s = "";
 		for(int i=0; i < rett.altezza; i++) {
 			for(int z=0; z < rett.larghezza; z++) {

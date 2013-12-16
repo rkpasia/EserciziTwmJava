@@ -1,28 +1,20 @@
 class UsoFrazione {
 	public static void main(String[] args){
-		//Frazione fraz = new Frazione(2,4);
-		//System.out.println(Frazione.getString(fraz));
-		//Frazione.semplifica(fraz);
-		//System.out.println("Frazione semplificata: "+Frazione.getString(fraz));
-		Frazione f_1 = new Frazione(1,2);
-		Frazione f_2 = new Frazione(2,4);
-		Frazione f_3 = new Frazione(4,4);
-		//System.out.println(Frazione.getString(f_1));
-		//System.out.println(Frazione.getString(f_2));
-		//System.out.println(Frazione.getString(f_3));
-		//Frazione.semplifica(f_1);
-		//Frazione.semplifica(f_2);
-		//Frazione.semplifica(f_3);
-		//System.out.println(Frazione.getString(f_1));
-		//System.out.println(Frazione.getString(f_2));
-		//System.out.println(Frazione.getString(f_3));
-		Frazione.somma(f_1,f_2);
-		System.out.println(Frazione.getString(f_1));
-		Frazione.sottrazione(f_2,f_3);
-		System.out.println(Frazione.getString(f_2));
-		Frazione.moltiplica(f_1,f_2);
-		System.out.println(Frazione.getString(f_1));
-		Frazione.divisione(f_3,f_1);
-		System.out.println(Frazione.getString(f_3));
+		Frazione f1 = new Frazione(1,2);
+		Frazione f2 = new Frazione(2,4);
+		Frazione f3 = new Frazione(4,4);
+
+		System.out.println("Frazione1 : "+Frazione.getString(f1));
+		System.out.println("Frazione2 : "+Frazione.getString(f2));
+		System.out.println("Frazione3 : "+Frazione.getString(f3));
+
+		Frazione.moltiplica(f1,f2);
+		System.out.println("Frazione1 per Frazione2 : "+Frazione.getString(f1));
+		Frazione.divisione(f3,f1);
+		System.out.println("Frazione3 diviso Frazione1 : "+Frazione.getString(f3));
+		Frazione.sottrazione(f2,f3);
+		System.out.println("Frazione2 meno Frazione3 : "+Frazione.getString(f2));
+		Frazione.somma(f2,f1);
+		System.out.println("Frazione2 piu' Frazione1 : "+Frazione.getString(f2));
 	}
 }

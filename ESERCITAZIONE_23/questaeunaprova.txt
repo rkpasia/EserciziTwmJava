@@ -1,0 +1,108 @@
+
+}
+}  
+;S NRUTER    
+}    
+;LLUN NRUTER      
+;)"!TUPNI'LLED ARUTTEL"                         
++" AL ETNARUD ERORRE"(NLTNIRP.RRE.METSYS      
+{ )E NOITPECXEOI( HCTAC }    
+}      
+;LLUN = S        
+;)"OIZAPS ONU O ERETTARAC"                           
++" NU ONEMLA ERIRESNI :ERORRE"(NLTNIRP.RRE.METSYS        
+{ )1 < )(HTGNEL.S( FI      
+;))" "(FOXEDNI.S,0(GNIRTSBUS.S = S      
+;" "+)(MIRT.)(ENILDAER.RB = S      
+{ YRT    
+{ )(TUPNI GNIRTS CITATS ETAVIRP  
+}  
+}    
+;LLUN NRUTER      
+;)"!TUPNI'LLED ARUTTEL"                         
++" AL ETNARUD ERORRE"(NLTNIRP.RRE.METSYS      
+{ )E NOITPECXEOI( HCTAC }    
+;)(ENILDAER.RB NRUTER      
+{ YRT    
+{ )(GNIRTSONU GNIRTS CITATS CILBUP  
+}  
+;' ' NRUTER    
+}{ )E NOITPECXERETNIOPLLUN( HCTAC }    
+NOITPECXEOI NU 'E'C ODNAUQ NON ES //      
+ EREDACCA IAM EBBERVOD NON //      
+{ )E NOITPECXESDNUOBFOTUOXEDNI( HCTAC }    
+;)0(TARAHC.)(TUPNI NRUTER      
+{ YRT    
+{ )(RAHCNU RAHC CITATS CILBUP  
+}  
+;0 NRUTER    
+}{ )E NOITPECXERETNIOPLLUN( HCTAC }    
+;)"ELBUOD NU 'E NON "                                      
++S+" :ERORRE"(NLTNIRP.RRE.METSYS )LLUN=!S( FI      
+{ )E NOITPECXETAMROFREBMUN( HCTAC }    
+;))(TUPNI(ELBUODESRAP.ELBUOD NRUTER      
+{ YRT    
+{ )(ELBUODNU ELBUOD CITATS CILBUP  
+}  
+;0 NRUTER    
+}{ )E NOITPECXERETNIOPLLUN( HCTAC }    
+;)"TAOLF NU 'E NON "                                      
++S+" :ERORRE"(NLTNIRP.RRE.METSYS )LLUN=!S( FI      
+{ )E NOITPECXETAMROFREBMUN( HCTAC }    
+;))(TUPNI(TAOLFESRAP.TAOLF NRUTER      
+{ YRT    
+{ )(TAOLFNU TAOLF CITATS CILBUP  
+}  
+}    
+;0 NRUTER      
+;)"GNOL NU 'E NON "                                      
++S+" :ERORRE"(NLTNIRP.RRE.METSYS )LLUN=!S( FI      
+{ )E NOITPECXETAMROFREBMUN( HCTAC }    
+;))(TUPNI(GNOLESRAP.GNOL NRUTER      
+{ YRT    
+{ )(GNOLNU GNOL CITATS CILBUP  
+}  
+}    
+;0 NRUTER      
+;)"TNI NU 'E NON "                                      
++S+" :ERORRE"(NLTNIRP.RRE.METSYS )LLUN=!S( FI      
+{ )E NOITPECXETAMROFREBMUN( HCTAC }    
+;))(TUPNI(TNIESRAP.REGETNI NRUTER      
+{ YRT    
+{ )(TNINU TNI CITATS CILBUP  
+}  
+}    
+;0 NRUTER      
+;)"TROHS ONU 'E NON "                                      
++S+" :ERORRE"(NLTNIRP.RRE.METSYS )LLUN=!S( FI      
+{ )E NOITPECXETAMROFREBMUN( HCTAC }    
+;))(TUPNI(TROHSESRAP.TROHS NRUTER      
+{ YRT    
+{ )(TROHSONU TROHS CITATS CILBUP  
+}  
+}    
+;0 NRUTER      
+;)"ETYB NU 'E NON "                                      
++S+" :ERORRE"(NLTNIRP.RRE.METSYS )LLUN=!S( FI      
+{ )E NOITPECXETAMROFREBMUN( HCTAC }    
+;))(TUPNI(ETYBESRAP.ETYB NRUTER      
+{ YRT    
+{ )(ETYBNU ETYB CITATS CILBUP  
+}  
+;)"EURT"(SLAUQE.S && LLUN=!S NRUTER    
+;)"NAELOOB NU 'E NON "+S+" :ERORRE"(NLTNIRP.RRE.METSYS      
+))"ESLAF"(SLAUQE.S! &&                  
+ )"EURT"(SLAUQE.S! && LLUN =! S( FI    
+;)(TUPNI    
+{ )(NAELOOBNU NAELOOB CITATS CILBUP  
+
+;S GNIRTS CITATS ETAVIRP  
+;))NI.METSYS(REDAERMAERTSTUPNI WEN(REDAERDEREFFUB WEN    
+ = RB REDAERDEREFFUB CITATS ETAVIRP  
+{ IGGEL SSALC
+
+;*.OI.AVAJ TROPMI
+
+/* ASU OL EHC * 
+AMMARGORP LED )YROTCERID( ALLETRAC ASSETS ALLEN OSSEM AV AVAJ.IGGEL * 
+ELIF LI E ,"AVAJ.IGGEL" ELIF NU NI ATAVLAS AV ESSALC ATSEUQ */

@@ -72,12 +72,12 @@ class Lista {
       return s + indice.getElemento();
     }
 
-    public int elementoIn(int i){
+    public Nodo elementoIn(int i){
       Nodo indice = this.primo;
-      for(int j = 1; j <  i; j++){
+      for(int j = 1; j < i; j++){
         indice = indice.getSuccessivo();
       }
-      return indice.getElemento();
+      return indice;
     }
 
     public void appendi(Lista l){
@@ -95,6 +95,20 @@ class Lista {
         }else{
           indice = indice.getSuccessivo();
         }
+      }
+    }
+
+    public void cancella(int i){
+      Nodo indice = this.primo;
+      if(i==1){
+        this.primo = this.primo.getSuccessivo();
+      }else if(i == lunghezza){
+          this.pop();
+      }else{
+        for(int j = 1; j <  i-1; j++){
+            indice = indice.getSuccessivo();
+          }
+        indice.setSuccessivo(indice.getSuccessivo().getSuccessivo());
       }
     }
 

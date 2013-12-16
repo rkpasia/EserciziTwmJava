@@ -1,8 +1,6 @@
 class CreaStampaArrayChar {
 	public static void main(String[] args){
 		System.out.print("Inserisci la lunghezza dell'array da azzerare:");
-		//int lunghezzaArray = Leggi.unInt();
-		//int[] array = new [lunghezzaArray];
 		char[] array = new char[Leggi.unInt()];
 		System.out.print("Leggi un carattere con cui riempire l'array:");
 		char carattere = Leggi.unChar();
@@ -22,7 +20,7 @@ class CreaStampaArrayChar {
 	      	else
 	        	visualizzazioneArray = visualizzazioneArray + y[i] + ",";
     	}
-    System.out.println("L'array azzerato e':" + visualizzazioneArray+"]");
+    System.out.println("L'array e':" + visualizzazioneArray+"]");
   }
 
 }

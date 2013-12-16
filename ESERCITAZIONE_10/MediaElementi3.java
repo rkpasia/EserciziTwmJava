@@ -23,19 +23,14 @@ class MediaElementiArray3 {
 	}
 
 	static double arrotonda(double numero, int decimali){
-		int conversione,unita;
 		if(decimali == 0){
-			unita = (int)(numero*10) % 10;
-			if(unita >= 5){
-				conversione = (int)(numero*10);
-				return ((conversione/(10))+1);
+			if((int)(numero*10) % 10 >= 5){
+				return (((int)(numero*10)/(10))+1);
 			}else{
-				conversione = (int)(numero*(10));
-				return (conversione/(10));
+				return ((int)(numero*(10))/(10));
 			}
 		}else{
-			conversione = (int)(numero*(Math.pow(10.0,decimali)));
-			return (conversione/(Math.pow(10.0,decimali)));
+			return ((int)(numero*(Math.pow(10.0,decimali)))/(Math.pow(10.0,decimali)));
 		}
 	}
 

@@ -19,10 +19,8 @@ class ScambioRigheMatrice {
 	}
 
 	static void scambiaRighe(int[][] matrice, int rigaUno, int rigaDue){
-		//int[] arrayAppoggio = new int[matrice[0].length];
 		int interoDiAppoggio;
 		for(int i = 0; i < matrice[0].length; i++){
-			//arrayAppoggio[i] = matrice[rigaUno][i];
 			interoDiAppoggio = matrice[rigaUno][i];
 			matrice[rigaUno][i] = matrice[rigaDue][i];
 			matrice[rigaDue][i] = interoDiAppoggio;

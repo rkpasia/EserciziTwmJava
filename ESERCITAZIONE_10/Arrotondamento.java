@@ -16,8 +16,15 @@ class Arrotondamento {
 				return (conversione/(10));
 			}
 		}else{
-			conversione = (int)(numero*(Math.pow(10.0,decimali)));
-			return (conversione/(Math.pow(10.0,decimali)));
+			unita = (int)(numero*(Math.pow(10.0,decimali+1))) % 10;
+			if(unita >= 5){
+				conversione = (int)(numero*(Math.pow(10.0,decimali))+1);
+				return (conversione/(Math.pow(10.0,decimali)));
+			}else{
+				conversione = (int)(numero*(Math.pow(10.0,decimali)));
+				return (conversione/(Math.pow(10.0,decimali)));
+			}
 		}
 	}
 }
+

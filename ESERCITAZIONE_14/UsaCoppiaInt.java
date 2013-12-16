@@ -1,5 +1,5 @@
 // 				SECONDA VERSIONE ESERCIZIO .6
-
+/*
 class UsaCoppiaInt {
 	public static void main(String[] args){
 		CoppiaInt a = new CoppiaInt(12,56);
@@ -25,11 +25,11 @@ class UsaCoppiaInt {
 	static void StampaCoppiaInt(CoppiaInt coppia){
 		System.out.println("[ "+CoppiaInt.GetPrimo(coppia)+" | "+CoppiaInt.GetSecondo(coppia)+" ]");
 	}
-}
+}*/
 
 
 // 				PRIMA VERSIONE ESERCIZIO .5
-/*
+
 class UsaCoppiaInt {
 	public static void main(String[] args){
 		CoppiaInt a = new CoppiaInt(12,56);
@@ -45,4 +45,3 @@ class UsaCoppiaInt {
 	}
 }
 
-*/

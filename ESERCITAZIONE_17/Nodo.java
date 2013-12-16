@@ -12,11 +12,11 @@ class Nodo {
   }
 
   public int getElemento(){
-    return elemento;
+    return elemento;//QUI CI RIFERIAMO ALL'ISTANZA QUINDI NON SERVE IL THIS
   }
 
   public Nodo getSuccessivo(){
-    return successivo;
+    return successivo;//QUI CI RIFERIAMO ALL'ISTANZA QUINDI NON SERVE IL THIS
   }
 
   public void setElemento(int elemento){

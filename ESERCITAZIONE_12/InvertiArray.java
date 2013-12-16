@@ -2,8 +2,6 @@ class InvertiArray {
 	public static void main(String[] args){
 		int[] array = {1,2,3,4,5};
 		stampaArray(array);
-		//riempiMatrice(matrice);
-		//System.out.println("Leggi due numeri e scambia le righe della matrice.");
 		invertiArray(array);
 		stampaArray(array);
 	}

@@ -2,16 +2,20 @@ class UniRicorsivo {
   public static void main (String[] args) {
     int[] a = {0,0,0,0,0,0,0,0,0,0};
     int[][] matrice = {{0,0,0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0,0,0}};
-    //assegnaUni(a,0);
-    //assegnaUni(a);
+    assegnaI(a,0);
+    assegnaUni(a);
     azzeraMatrice(matrice);
-    //assegnaI(a,0);
+    assegnaI(a,0);
     for (int i = 0; i < matrice.length; i++){
       for(int j = 0; j < matrice[i].length; j++){
-        System.out.print(matrice[i][j] + " ");
+        System.out.print(matrice[i][j]+ " ");
       }
       System.out.println();
     }
+    for(int i = 0; i < a.length; i++){
+      System.out.print(a[i]+" ");
+    }
+    System.out.println();
   }
 
   static void azzeraMatrice(int[][] matrice){

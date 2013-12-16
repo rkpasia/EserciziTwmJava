@@ -1,8 +1,6 @@
 class CreaStampaArray {
 	public static void main(String[] args){
 		System.out.print("Inserisci la lunghezza dell'array da azzerare:");
-		//int lunghezzaArray = Leggi.unInt();
-		//int[] array = new [lunghezzaArray];
 		int[] array = new int[Leggi.unInt()];
 		azzeraArray(array);
 		stampa(array);

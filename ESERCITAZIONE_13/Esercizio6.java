@@ -26,8 +26,10 @@ class Esercizio6 {
   }
   
   static int dicotomicSearch(int startIndex, int endIndex, int[] v, int number){
-    if (startIndex == endIndex){
-      return -1;
+    if(startIndex == endIndex){
+      return v[startIndex] == number ? startIndex : -1;
+    }else{
+      return Math.max(dicotomicSearch(startIndex,(startIndex+endIndex)/2,v,number),dicotomicSearch((startIndex+endIndex)/2+1,endIndex,v,number));
     }
   }
   
